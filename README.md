@@ -3,16 +3,11 @@ Example of feeding sensortag data into websocket
 
 ## Install
 
-	yarn install
-	gulp
-	node app.js
+```
+// If you have yarn, you can use yarn to install 
 
-## Raspberry Pi 3 Install
-
-- Use the `linux` branch
-
-## OSX Install
-
-- Use the `master` branch
-- Tested on OS X EI Capitan 10.11.6
-- `xpc-connection` and `bplist-parser` must be installed.
+sudo yarn global add node-gyp or sudo npm install node-gyp -g
+yarn install or npm install
+npm gulp
+npm start or node app.js
+```
