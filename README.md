@@ -8,6 +8,6 @@ Example of feeding sensortag data into websocket
 
 sudo yarn global add node-gyp or sudo npm install node-gyp -g
 yarn install or npm install
-npm gulp
+npm run gulp
 npm start or node app.js
 ```
